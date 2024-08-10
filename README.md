@@ -46,13 +46,17 @@ return [
     'base_uri' => env('CHAPA_BASE_URI'),
 ];
 
+
 4. ⚙️ Define Chapa Logic in a Service Class
 Let's encapsulate all Chapa-related operations within a dedicated service class:
 
 Steps:
 A.Create a Services Directory: Inside the app directory.
+
 B.Create ChapaService.php: In the Services directory.
+
 C. Define Logic: Implement methods for interacting with Chapa’s API.
+
 Example ChapaService.php:
 php
 
@@ -82,14 +86,17 @@ class ChapaService
     }
 }
 
+
 5. 🗂 Handle User Requests in a Controller
+
 Create a controller to process user requests:
 
 A. Generate Controller:
-bash
 
 php artisan make:controller ChapaController
+
 B. Implement Logic: Handle requests and pass them to the ChapaService for processing.
+
 Example ChapaController.php:
 php
 
