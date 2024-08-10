@@ -179,3 +179,6 @@ Once the payment request is sent:
 
 A. Success: You will receive a "checkout URL" from Chapa.
 B. Failure: An error message will be returned, either user-defined or from Chapa.
+
+have you liked it?am happy for that,please give it a star⭐
+Thank you!
